@@ -9,7 +9,9 @@ let PlotFunctionResponse = require('./plot');
 let DefinitionResponse = require('./definition');
 let ThesaurusResponse = require('./thesaurus');
 
-let token = 'xoxb-91763784404-whudWX7VGNk3fHllPQa35vrS';
+// ADD API KEY https://teamhackvt.slack.com/services/B2PP2GPCJ
+let token = '';
+
 let rtm = new RtmClient(token, {logLevel: 'error', dataStore: new MemoryDataStore()});
 let webClient = new WebClient(token);
 
